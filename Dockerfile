@@ -14,16 +14,6 @@ COPY . .
 # Build the application
 RUN npm run build
 
-# Create non-root user
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 greact
-
-# Change ownership
-RUN chown -R greact:nodejs /app
-
-# Switch to non-root user
-USER greact
-
 # Expose port
 EXPOSE 5000
 
