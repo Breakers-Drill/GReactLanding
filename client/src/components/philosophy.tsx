@@ -112,7 +112,7 @@ export default function Philosophy() {
             </blockquote>
             <div className="mt-8">
               <span className="text-primary font-semibold" data-testid="text-manifesto-author">
-                — Волшебник-программист, чародей разработки
+                — Никита Бизяев
               </span>
             </div>
           </div>
