@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { Rocket, Book, ChevronDown } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { ChevronDown } from "lucide-react";
 
 export default function Hero() {
   const [isVisible, setIsVisible] = useState(false);
@@ -41,27 +40,6 @@ export default function Hero() {
             Где скорость, польза и красота важнее сложности.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-primary/25"
-              onClick={scrollToPhilosophy}
-              data-testid="button-start-journey"
-            >
-              <Rocket className="mr-2 h-5 w-5" />
-              Начать путешествие
-            </Button>
-            <Button 
-              variant="outline"
-              size="lg"
-              className="border border-border bg-card hover:bg-muted text-foreground px-8 py-4 font-semibold"
-              onClick={scrollToPhilosophy}
-              data-testid="button-learn-more"
-            >
-              <Book className="mr-2 h-5 w-5" />
-              Узнать больше
-            </Button>
-          </div>
         </div>
       </div>
       

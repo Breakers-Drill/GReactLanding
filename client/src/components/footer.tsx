@@ -12,7 +12,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="text-muted-foreground text-sm" data-testid="text-footer-copyright">
-            © 2024 GReact. Начало удивительного путешествия.
+            © 2025 GReact. Начало удивительного путешествия.
           </div>
         </div>
       </div>
