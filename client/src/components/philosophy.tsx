@@ -26,7 +26,7 @@ export default function Philosophy() {
     <section id="philosophy" ref={sectionRef} className="py-24 relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-philosophy-title">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 font-heading" data-testid="text-philosophy-title">
             Философия разработки
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="text-philosophy-subtitle">
@@ -47,7 +47,7 @@ export default function Philosophy() {
               <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/30 transition-colors">
                 <Zap className="text-primary text-2xl" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4" data-testid="text-speed-title">Скорость</h3>
+              <h3 className="text-2xl font-semibold mb-4 font-heading" data-testid="text-speed-title">Скорость</h3>
               <p className="text-muted-foreground" data-testid="text-speed-description">
                 Задачи решаются за часы, а не недели. Быстрый delivery в production без лишней бюрократии.
               </p>
@@ -66,7 +66,7 @@ export default function Philosophy() {
               <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-accent/30 transition-colors">
                 <Target className="text-accent text-2xl" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4" data-testid="text-utility-title">Польза</h3>
+              <h3 className="text-2xl font-semibold mb-4 font-heading" data-testid="text-utility-title">Польза</h3>
               <p className="text-muted-foreground" data-testid="text-utility-description">
                 Фокус на реальной пользе и результате. Никакой искусственной сложности ради сложности.
               </p>
@@ -85,7 +85,7 @@ export default function Philosophy() {
               <div className="w-16 h-16 bg-secondary/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-secondary/30 transition-colors">
                 <Gem className="text-secondary text-2xl" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4" data-testid="text-beauty-title">Красота</h3>
+              <h3 className="text-2xl font-semibold mb-4 font-heading" data-testid="text-beauty-title">Красота</h3>
               <p className="text-muted-foreground" data-testid="text-beauty-description">
                 Элегантный код и прекрасный UX. Технологии должны радовать, а не пугать.
               </p>
@@ -102,7 +102,7 @@ export default function Philosophy() {
           data-testid="card-manifesto"
         >
           <div className="relative z-10">
-            <h3 className="text-3xl font-bold mb-6 gradient-text" data-testid="text-manifesto-title">
+            <h3 className="text-3xl font-bold mb-6 gradient-text font-heading" data-testid="text-manifesto-title">
               Манифест разработчика
             </h3>
             <blockquote className="text-lg md:text-xl text-muted-foreground italic leading-relaxed max-w-4xl mx-auto" data-testid="text-manifesto-quote">

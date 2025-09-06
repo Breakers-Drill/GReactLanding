@@ -103,7 +103,7 @@ export default function Projects() {
     <section id="projects" ref={sectionRef} className="py-24 bg-muted/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-projects-title">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 font-heading" data-testid="text-projects-title">
             Будущие проекты
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="text-projects-subtitle">
@@ -126,7 +126,7 @@ export default function Projects() {
                 <div className={`w-12 h-12 ${project.bgColor} rounded-lg flex items-center justify-center mb-6 ${project.hoverColor} transition-colors`}>
                   <Icon className={`${project.iconColor} text-xl`} />
                 </div>
-                <h3 className="text-xl font-semibold mb-4" data-testid={`text-${project.testId}-title`}>
+                <h3 className="text-xl font-semibold mb-4 font-heading" data-testid={`text-${project.testId}-title`}>
                   {project.title}
                 </h3>
                 <p className="text-muted-foreground mb-6" data-testid={`text-${project.testId}-description`}>

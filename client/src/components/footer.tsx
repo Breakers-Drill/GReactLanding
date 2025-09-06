@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <span className="text-2xl font-bold gradient-text" data-testid="text-footer-logo">
+            <span className="text-2xl font-bold gradient-text font-heading" data-testid="text-footer-logo">
               GReact
             </span>
             <p className="text-muted-foreground mt-2" data-testid="text-footer-tagline">

@@ -29,10 +29,10 @@ export default function Hero() {
       
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className={`transition-all duration-800 ${isVisible ? "animate-slide-up" : "opacity-0 translate-y-8"}`}>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6" data-testid="text-hero-title">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 font-heading" data-testid="text-hero-title">
             <span className="gradient-text">GReact</span>
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-4" data-testid="text-hero-subtitle">
+          <p className="text-xl md:text-2xl text-muted-foreground mb-4 font-heading" data-testid="text-hero-subtitle">
             Магия современной разработки
           </p>
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed" data-testid="text-hero-description">
