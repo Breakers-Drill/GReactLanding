@@ -1,0 +1,11 @@
+services:
+  greact-landing:
+    build: .
+    expose:
+      - 5000
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
